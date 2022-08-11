@@ -13,7 +13,7 @@ export default {
 
     <div class="card-container">
       <ProductCard
-        v-for="product in inventory.slice(0, 6)"
+        v-for="product in inventory"
         :key="product.id"
         :product="product"
         :addToCart="addToCart"
